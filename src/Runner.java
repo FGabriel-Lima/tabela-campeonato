@@ -7,6 +7,8 @@ public class Runner {
 
     List<Participante> participantes = new ArrayList<Participante>();
 
+    System.out.println("Olá, seja bem vindo ao programa");
+
     Participante b = new Participante("fogo");
     b.addVitoria(5);
     b.addGolsAfavor(20);
